@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  direction: rtl;
+}
+
+@font-face {
+  font-family: "IRANSansWeb";
+  src: url("../assets/fonts/IRANSansWeb.eot"); /* IE */
+  src: url("../assets/fonts/IRANSansWeb.eot?#iefix") format("embedded-opentype"),
+    /* IE */ url("../assets/fonts/IRANSansWeb.woff") format("woff"),
+    /* Modern Browsers */ url("../assets./fonts/IRANSansWeb.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-weight: normal;
+}
+
+body {
+  font-family: "IRANSansWeb";
+}
+
+.bo1::after {
+  content: "";
+  background-color: rgb(235, 235, 235);
+  display: inline-block;
+  width: 1px;
+  height: 500px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
