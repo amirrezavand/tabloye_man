@@ -49,3 +49,33 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+/* ********************** start footer ***** */
+.footer{
+  @apply bg-[#f7fdfc];
+}
+/* footer-fast-link__button */
+.footer-fast-link__button{
+  @apply py-[8px] mb-[8px] text-[#00241f] text-[16px] font-bold;
+}
+/* footer-fast-link__link */
+.footer-fast-link__link{
+  @apply border-[#ebebeb] block mb-[12px] text-[#00241f] text-[14px] font-medium hover:text-[#009480];
+}
+/* footer-contact-us__address */
+.footer__contact-us_address{
+  @apply text-[14px] font-medium text-[#00241f] mb-3 px-2;
+}
+/* footer-contact-us__phone */
+.footer__contact-us_phone{
+  @apply text-[14px] font-bold text-[#009480] hover:text-[#7dd4c873];
+}
+/* footer-contact-us__license-img */
+.license-img{
+  @apply border border-[#ebebeb] rounded-[10px];
+}
+/* footer-social-icon */
+.footer-social-icon{
+  @apply text-[21px] pe-[30px] hover:text-red-600;
+}
+/* *********************************** end footer ***** */
+/* **************************** */
