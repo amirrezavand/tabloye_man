@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about-us</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- fontawsome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header shadow-md relative z-10 bg-white">
+      <div class="container flex items-center p-4 mx-auto">
+        <div class="header__logo-container">
+          <img
+            class="header__logo h-[30px]"
+            src="../assets/img/logo.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <a href="" class="mr-10 flex items-center text-gray-700 gap-1">
+            <span>دسته بندی خدمات</span>
+            <span class="material-symbols-outlined rotate-180">
+              keyboard_arrow_up
+            </span>
+          </a>
+        </div>
+        <div class="mr-auto text-sm flex items-center gap-3">
+          <a href="" class="header__phone flex !items-center p-2 gap-1">
+            <span>۰۹۱۲۲۱۷۰۸۱۰</span>
+            <span class="material-symbols-outlined text-blue-950 !text-xl">
+              call
+            </span>
+          </a>
+          <a
+            href=""
+            class="header__order bg-green-600 text-white inline-block p-2 rounded-md"
+            >ثبت سفارش</a
+          >
+          <a href="" class="header__auth border rounded-md p-2 text-gray-600"
+            >ثبت نام | ورود</a
+          >
+        </div>
+      </div>
+    </header>
+    <!-- *********************************************** -->
+    <!-- ********************   main   ***************** -->
+    <main>
+      <!-- **********//  start breadcrumb  //********** -->
+      <section class="px-[15px] mb-4">
+        <div
+          class="container mx-auto p-4 flex flex-row items-center justify-start"
+        >
+          <ul class="flex flex-row items-center justify-start">
+            <li>
+              <a
+                href="index.html"
+                class="flex items-center text-[14px] text-[#9c9c9c] hover:text-[#00bda4]"
+                >تابلوی من<i class="fa text-[14px] ms-1">&#xf104;</i></a
+              >
+            </li>
+            <li>
+              <span
+                class="text-[14px] font-bold text-[#757575] cursor-pointer ms-1"
+                >انتقادات و پیشنهادات</span
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- *************///  blog -->
+      <section class="px-[15px] my-4">
+        <!-- ***** title  **** -->
+        <div class="container p-4 mx-auto items-center justify-start">
+          <li class="text-[20px] md:text-[28px] font-bold text-[#00241f]">
+            انتقاد ها و پیشنهاد ها
+          </li>
+        </div>
+        <!-- ****  form-title **** -->
+        <div
+          class="container mx-auto mb-8 shadow-2xl shadow-[#0000001a] rounded-[5px] border border-[#f0f2f4] p-[10px] md:py-[30px] md:px-[50px]"
+        >
+          <div class="grid grid-cols-12">
+            <div class="col-span-12">
+              <p class="text-[#00241f] md:text-[14px] text-[12px]">
+                <i class="fa-regular fa-exclamation"></i> کاربر گرامی لطفا با
+                وارد کردن شماره موبایل یا آدرس ایمیل خود ما را در پاسخگویی بهتر
+                همراهی نمایید.
+              </p>
+            </div>
+          </div>
+          <!-- ///////////////////   form   ///////////////// -->
+          <div class="grid grid-cols-12 mt-5">
+            <!-- /*/*//*//*/ form-right  -->
+            <div class="col-span-12 sm:col-span-5 bg-white">
+              <!-- input-1 -->
+              <div class="col-span-12 sm:col-span-12 my-4">
+                <label
+                  for="phone"
+                  class="text-[#757575cc] text-[14px] font-bold"
+                  >تلفن</label
+                >
+                <br />
+                <input
+                  data-v-19876350=""
+                  novalidate="novalidate"
+                  maxlength="11"
+                  pattern="[0-9,]*"
+                  inputmode="numeric"
+                  type="text"
+                  class="w-[90%] bg-white h-[43px] border rounded-lg p-[10px] mt-1 outline-[#00bda4]"
+                  id="phone"
+                  autocomplete="off"
+                />
+              </div>
+              <!-- input-2 -->
+              <div class="col-span-12 sm:col-span-12 my-4">
+                <label
+                  for="email"
+                  class="text-[#757575cc] text-[14px] font-bold"
+                  >پست الکترونیک</label
+                >
+                <br />
+                <input
+                  type="email"
+                  class="w-[90%] bg-white h-[43px] border rounded-lg p-[10px] mt-1 outline-[#00bda4]"
+                  id="email"
+                  autocomplete="off"
+                />
+              </div>
+              <!-- input-3 -->
+              <div class="col-span-12 sm:col-span-12 my-4">
+                <label
+                  for="type-list"
+                  class="text-[#757575cc] text-[14px] font-bold"
+                  >موضوع</label
+                >
+                <br />
+                <select
+                  id="type-list"
+                  class="w-[90%] bg-white h-[43px] border rounded-lg mt-1 outline-[#00bda4]"
+                >
+                  <option selected>پیگیری سفارش</option>
+                  <option value="1">ثبت پیشنهاد</option>
+                  <option value="2">اعلام نارضایتی</option>
+                  <option value="3">مشکلات فنی</option>
+                  <option value="4">سایر</option>
+                </select>
+              </div>
+              <!-- input-4 -->
+              <div class="col-span-12 sm:col-span-12 my-4">
+                <label
+                  for="services-list"
+                  class="text-[#757575cc] text-[14px] font-bold"
+                  >سرویس</label
+                >
+                <br />
+                <select
+                  id="services-list"
+                  class="w-[90%] bg-white h-[43px] border rounded-lg mt-1 outline-[#00bda4]"
+                >
+                  <option selected>نظافت و پذیرایی</option>
+                  <option value="1">شستشو</option>
+                  <option value="2">کارواش و دیتیلینگ</option>
+                  <option value="3">سرمایش و گرمایش</option>
+                  <option value="4">تعمیرات ساختمان</option>
+                  <option value="5">لوله کشی</option>
+                  <option value="6">طراحی و بازسازی ساختمان</option>
+                  <option value="7">برقکاری</option>
+                  <option value="8">چوب و کابینت</option>
+                  <option value="9">خدمات شیشه ای ساختمان</option>
+                  <option value="10">باغبانی و فضای سبز</option>
+                  <option value="11">نصب و تعمیر لوازم خانگی</option>
+                  <option value="12">خدمات کامپیوتر</option>
+                  <option value="13">تعمیرات موبایل</option>
+                  <option value="14">باربری و جابجایی</option>
+                  <option value="15">خدمات و تعمیرات خودرو</option>
+                </select>
+              </div>
+              <!-- input-5 -->
+              <div class="col-span-12 sm:col-span-12 my-4">
+                <label
+                  for="city-list"
+                  class="text-[#757575cc] text-[14px] font-bold"
+                  >شهر</label
+                >
+                <br />
+                <select
+                  id="city-list"
+                  class="w-[90%] bg-white h-[43px] border rounded-lg mt-1 outline-[#00bda4]"
+                >
+                  <option selected>تهران</option>
+                  <option value="1">کرج</option>
+                  <option value="2">اصفهان</option>
+                  <option value="3">مشهد</option>
+                  <option value="4">شیراز</option>
+                  <option value="5">تبریز</option>
+                  <option value="6">رشت</option>
+                  <option value="7">قم</option>
+                  <option value="8">کرمان</option>
+                  <option value="9">جیرفت</option>
+                  <option value="10">رفسنجان</option>
+                  <option value="11">یزد</option>
+                  <option value="12">اهواز</option>
+                  <option value="13">آمل</option>
+                  <option value="14">کرمانشاه</option>
+                  <option value="15">گرگان</option>
+                  <option value="16">لاهیجان</option>
+                </select>
+              </div>
+            </div>
+            <!-- /*/*/*/*/*/*/  form-left -->
+            <div class="col-span-12 sm:col-span-7 bg-white sm:ps-5">
+              <!-- input-1 -->
+              <div class="col-span-12 sm:col-span-12 my-4">
+                <label for="type" class="text-[#757575cc] text-[14px] font-bold"
+                  >موضوع</label
+                >
+                <br />
+                <div class="col-span-12 flex mt-3">
+                  <input
+                    type="radio"
+                    id="html"
+                    name="fav_language"
+                    value="HTML"
+                    class="ms-5 me-2"
+                  />
+                  <label for="html">مشتری</label><br />
+                  <input
+                    type="radio"
+                    id="css"
+                    name="fav_language"
+                    value="CSS"
+                    class="ms-5 me-2"
+                  />
+                  <label for="css">متخصص</label><br />
+                  <input
+                    type="radio"
+                    id="javascript"
+                    name="fav_language"
+                    value="JavaScript"
+                    class="ms-5 me-2"
+                  />
+                  <label for="javascript">سایر</label>
+                </div>
+              </div>
+              <!-- input-2 -->
+              <div class="col-span-12 sm:col-span-12 my-4">
+                <label for="code" class="text-[#757575cc] text-[14px] font-bold"
+                  >کد پیگیری سفارش</label
+                >
+                <br />
+                <input
+                  type="code"
+                  class="w-[90%] sm:w-[70%] bg-white h-[43px] border rounded-lg p-[10px] mt-1 outline-[#00bda4]"
+                  id="number"
+                  autocomplete="off"
+                />
+                <p class="text-[#757575] text-[12px] font-medium mt-1 mb-3">
+                  برای پیگیری سریع‌تر سفارش موردنظرتان، کد پیگیری سفارش را وارد
+                  نمایید.
+                </p>
+              </div>
+              <!-- input-3 -->
+              <div class="col-span-12 sm:col-span-12 my-4">
+                <label
+                  for="discription"
+                  class="text-[#757575cc] text-[14px] font-bold"
+                  >توضیحات</label
+                >
+                <br />
+                <textarea
+                  class="w-[90%] sm:w-[70%] bg-white border rounded-lg p-[10px] mt-1 outline-[#00bda4] h-[250px]"
+                  id="discription"
+                  rows="3"
+                ></textarea>
+              </div>
+              <!-- button -->
+              <div
+                class="col-span-12 sm:col-span-12 my-4 flex justify-center sm:justify-end"
+              >
+                <button
+                  class="w-[100%] sm:w-[150px] flex justify-center items-center text-white px-[8px] py-[12px] bg-[#00bda4] rounded-lg"
+                >
+                  ارسال
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- *********************************************** -->
+    <!-- ************     start-footer    **************-->
+    <footer class="footer">
+      <div class="container items-center p-4 mx-auto">
+        <div class="grid grid-cols-12 mt-4">
+          <div class="col-span-12 lg:col-span-6 flex">
+            <a href="#" class="footer-social-icon"
+              ><i class="fa-brands fa-linkedin"></i></a
+            ><a href="#" class="footer-social-icon"
+              ><i class="fa-brands fa-telegram"></i></a
+            ><a href="#" class="footer-social-icon"
+              ><i class="fa-brands fa-instagram"></i></a
+            ><a href="#" class="footer-social-icon"
+              ><i class="fa-brands fa-x-twitter"></i></a
+            ><a href="#" class="footer-social-icon"
+              ><i class="fa-brands fa-facebook-f"></i></a
+            ><a href="#" class="footer-social-icon"
+              ><i class="fa-solid fa-tv"></i></a
+            ><a href="#" class="footer-social-icon"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </div>
+          <div class="col-span-12 lg:col-span-6">
+            <p
+              class="text-[12px] flex justify-start lg:justify-end xl:justify-center"
+            >
+              حقوق مادی و معنوی این سرویس (وب سایت و اپلیکیشن های موبایل) متعلق
+              به چاره یاب هوشمند سانا (آچاره)
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
