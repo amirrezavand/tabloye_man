@@ -79,3 +79,11 @@ body {
 }
 /* *********************************** end footer ***** */
 /* **************************** */
+/* ****************************************************** */
+/* ***************************     accordion label */
+.accordion-label{
+  @apply font-bold h-auto sm:h-[65px] flex items-center py-[13px] ps-[10px] pe-[44px] sm:py-[19px] sm:ps-[22px] sm:pe-[68px] text-[14px] sm:text-[16px] text-[#00241f] cursor-pointer;
+}
+.accordion-content{
+  @apply pb-2 px-[20px] text-[14px] sm:text-[16px] leading-9 font-light text-[#00241f];
+}
