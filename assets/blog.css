@@ -1,0 +1,9 @@
+.blog__link:hover .blog__content{
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.blog-list__img:hover .blog-list__overlay{
+top: 0;
+transition: 0.5s;
+}
