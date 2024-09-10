@@ -87,3 +87,17 @@ body {
 .accordion-content{
   @apply pb-2 px-[20px] text-[14px] sm:text-[16px] leading-9 font-light text-[#00241f];
 }
+/* ******************************************************** */
+/* *********************   article            */
+.article__time-author{
+  @apply flex justify-start items-center text-[12px] text-[#454545];
+}
+.article__title{
+  @apply text-[#555555] text-[20px] font-semibold my-2;
+}
+.article__description{
+  @apply text-[#757575] text-[14px] leading-7 my-2;
+}
+.article__button{
+  @apply bg-[#56c0a6] px-[20px] py-3 text-[14px] font-normal text-white rounded-lg mt-5;
+}
