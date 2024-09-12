@@ -998,10 +998,6 @@ video {
   gap: 2rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
 .gap-x-1 {
   -moz-column-gap: 0.25rem;
        column-gap: 0.25rem;
@@ -1907,12 +1903,12 @@ body {
     grid-column: span 5 / span 5;
   }
 
-  .sm\:col-span-7 {
-    grid-column: span 7 / span 7;
-  }
-
   .sm\:col-span-6 {
     grid-column: span 6 / span 6;
+  }
+
+  .sm\:col-span-7 {
+    grid-column: span 7 / span 7;
   }
 
   .sm\:mb-10 {
