@@ -108,3 +108,39 @@ body {
 .article__paragraph{
   @apply text-[#2c2f34] text-[14px] items-start my-4 leading-7 ;
 }
+/* ****************************************************************** */
+/* ********************   price-services-tabel */
+.services__price-tabel-1{
+  @apply py-[10px] px-[8px] sm:h-[64px] bg-[#ebebeb] flex flex-nowrap items-center justify-between text-[14px] font-medium text-[#00241f];
+}
+.services__price-tabel-2{
+  @apply py-[10px] px-[8px] sm:h-[64px] bg-[#fbfbfb] flex flex-nowrap items-center justify-between text-[14px] font-medium text-[#00241f];
+}
+.read-more-button{
+  @apply bg-white border border-[#56c0a6] px-[20px] py-[5px] text-[14px] font-normal text-[#56c0a6] rounded-lg hover:text-[#2f6d5e] hover:border-[#2f6d5e];
+}
+.services-price__list-style{
+  @apply text-[14px] text-[#757575] font-bold list-none my-6 flex items-center justify-start ;
+}
+.services-price__list-icon{
+  @apply  text-[#56c0a6] text-[10px] me-4;
+}
+/* ******************************************************************* */
+/* ***********************   expert-card */
+.expert-card__name{
+  @apply text-[14px] text-[#00241f] font-bold mb-4;
+}
+.expert-card__score{
+  @apply flex items-center me-4 p-[5px] justify-center bg-[#f29f21] border border-[#f29f21] rounded-lg text-white text-[14px] font-bold;
+}
+.expert-card__job{
+  @apply items-start text-[14px] font-medium text-[#757575] my-5;
+}
+.expert-card__documents-expert{
+  @apply text-[12px] font-medium text-[#00241f];
+}
+/* ******************************************************************** */
+/* *************************  services-bookmark */
+.services__bookmark-style {
+  @apply border border-[#757575] rounded-lg py-[20px] px-[16px] text-[#757575] text-[14px] font-bold flex items-center justify-center hover:text-[#56c0a6] hover:border-[#56c0a6] cursor-pointer transition-[0.5s];
+}
