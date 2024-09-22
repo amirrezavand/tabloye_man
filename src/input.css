@@ -142,5 +142,31 @@ body {
 /* ******************************************************************** */
 /* *************************  services-bookmark */
 .services__bookmark-style {
-  @apply border border-[#757575] rounded-lg py-[20px] px-[16px] text-[#757575] text-[14px] font-bold flex items-center justify-center hover:text-[#56c0a6] hover:border-[#56c0a6] cursor-pointer transition-[0.5s];
+  @apply border border-[#dcdbdb] rounded-lg py-[20px] px-[16px] text-[#757575] text-[14px] font-bold flex items-center justify-center hover:text-[#56c0a6] hover:border-[#56c0a6] cursor-pointer transition-[0.5s];
+}
+/* *********************************************************************** */
+/* ***********************   font style  */
+/*  font medium */
+.medium-font{
+  @apply text-[#757575] font-medium text-[14px];
+}
+.bold-font{
+  @apply text-[#00241f] font-bold text-[20px];
+}
+
+/* ************************************************************************** */
+/* ******************   score-style */
+.score-container-style{
+  @apply w-[300px] h-[10px] bg-white border flex justify-end me-2 rounded-lg;
+}
+.score-container-style-2{
+  @apply w-[200px] h-[10px] bg-white border flex justify-end me-2 rounded-lg;
+}
+/* ************************************************************************** */
+/* ************************    hover-link */
+.hover-link{
+  @apply hover:text-[#56c0a6] before:text-[#00241f] cursor-pointer ;
+}
+.before-link-font{
+  @apply text-[14px]  font-normal;
 }
