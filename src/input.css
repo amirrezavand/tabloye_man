@@ -170,3 +170,14 @@ body {
 .before-link-font{
   @apply text-[14px]  font-normal;
 }
+/* ************************************************************************* */
+/* *************************     form-question */
+.radio-button-style{
+  @apply me-2 w-5 h-5 text-[#56c0a6] bg-gray-100 border-gray-300 focus:text-[#56c0a6] dark:focus:text-[#56c0a6];
+}
+.next-page__button{
+  @apply bg-[#56c0a6] px-[20px] py-3 text-[14px] font-normal text-white rounded-lg mt-5 w-[150px]  md:w-[200px];
+}
+.last-page__button{
+  @apply bg-white px-[20px] py-3 text-[14px] font-normal border border-[#56c0a6] text-[#56c0a6] rounded-lg mt-5 w-[150px]  md:w-[200px];
+}
