@@ -11,6 +11,9 @@ h1 {
 .radio-item [type="radio"] {
 	display: none;
 }
+.radio-item [type="checkbox"] {
+	display: none;
+}
 .radio-item + .radio-item {
 	margin-top: 15px;
 	
@@ -66,6 +69,19 @@ h1 {
 	border-color: #56c0a6;
 }
 .radio-item [type="radio"]:checked ~ label::before {
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1.1);
+}
+/* ************************************** */
+/* ************     checkbox    ********* */
+.radio-item [type="checkbox"] {
+	display: none;
+}
+.radio-item [type="checkbox"]:checked ~ label {
+	border-color: #56c0a6;
+}
+.radio-item [type="checkbox"]:checked ~ label::before {
 	opacity: 1;
 	visibility: visible;
 	transform: scale(1.1);
