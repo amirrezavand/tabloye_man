@@ -181,3 +181,14 @@ body {
 .last-page__button{
   @apply bg-white px-[20px] py-3 text-[14px] font-normal border border-[#56c0a6] text-[#56c0a6] rounded-lg mt-5 w-[150px]  md:w-[200px];
 }
+  /* *********************************************** */
+  /* *************    calendar */
+  .calendar-box{
+    @apply p-2 cursor-pointer   flex items-center justify-center text-[#9c9c9c] flex-col hover:text-[#56c0a6]  hover:border-b-[2px] hover:border-[#56c0a6] ;
+  } 
+  .calendar-day{
+	@apply text-[14px]  font-bold ;
+  }
+  .calendar-date{
+    @apply text-[13px] font-medium mt-[10px] ;
+  }
